@@ -31,3 +31,6 @@ def password(request):
 
 
     return render(request, 'generator/password.html', {'password': generated_password})
+
+def hipotenusa(request):
+    return render(request, 'generator/hipotenusa.html')

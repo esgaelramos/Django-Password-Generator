@@ -1,0 +1,62 @@
+/********************************************************************************************************** 
+    PRINCIPAL STYLES 
+***********************************************************************************************************/
+:root{
+    --primary-color: #102266;
+    --background-color: #D1FDFF;
+    --body-color: #000000;
+    --gira-prepa:#e669b6;
+    --gira-uni:#ffee07;
+    --cv-propio: #517bbb;
+    --about-me: #1eff00;
+}
+*{
+    font-size: 19px;
+    background: var(--background-color);
+}
+body{
+    font-family: 'Saira';
+    color: var(--body-color);
+    font-family: 'Saira', Arial, Helvetica, sans-serif;
+    line-height: 1.29;
+}
+h2{
+    font-size: 34px;
+}
+h3{
+    font-size: 24px;
+}
+a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/********************************************************************************************************** 
+    TOPICS 
+***********************************************************************************************************/
+.topics{
+    display: block;
+}
+.topic-item{
+    width: 130px;
+    border-radius: 2px;
+    margin: 10px;
+    padding: 3px;
+}
+#topic-gira-prepa{
+    background-color: var(--gira-prepa);
+}
+#topic-gira-uni{
+    background-color: var(--gira-uni);    
+}
+#topic-cv-propio{
+    background-color: var(--cv-propio);
+}
+#topic-about-me{
+    background-color: var(--about-me);
+}
+/********************************************************************************************************** 
+    XXX 
+***********************************************************************************************************/

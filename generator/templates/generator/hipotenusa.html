@@ -1,0 +1,18 @@
+{% block content %}
+
+<form action="{% url 'turesultado' %}">
+    <h1>La Hipotenusa</h1>
+        
+    <label for="catetoa">Cateto A</label>
+    <input type="text" name="catetoa" id="catetoa">
+
+    <label for="catetob">Cateto B</label>
+    <input type="text" name="catetob" id="catetob">
+
+    <br>
+
+    <button>Generate Hipotenusa</button>
+
+</form>
+
+{% endblock %}

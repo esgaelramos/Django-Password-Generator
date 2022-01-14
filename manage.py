@@ -3,7 +3,7 @@
 import os
 import sys
 
-
+#END
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'password_generator.settings')

@@ -5,6 +5,7 @@ Make it with: Python, Django, SQLite3.
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install django.
+Remember that SQLite it's default DB of Django and not need at lib.
 
 ```bash
 pip install django==4.0.2
@@ -13,10 +14,13 @@ pip install django==4.0.2
 ## Usage
 
 ```python
-import django
+python3 manage.py runserver
 
 ```
-Remember that SQLite it's default DB of Django and not need at lib.
+
+### Check Urls
+The principal url templates are:
+#### '/' , 'generate-password', 'lahipotenusa'
 
 ## Contributing
 Pull requests are welcome. For major changes, please open a fork or copy-paste this repository with what you would like to change.
